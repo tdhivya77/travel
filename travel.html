@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+         <title>Travel Website</title>
+         <link rel="stylesheet" href="style.css">
+         <script src="https://kit.fontawesome.com/2593f46dfc.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+     <div class="header">
+        <nav id="navBar">
+              <img src="images/logo.png" width="5" heigth="5" class="logo">
+              <ul class="nav-links">
+                <li><a href="#">Popular Places</a></li>
+                <li><a href="#">Travel Outside</a></li>
+                <li><a href="#">Online Packages</a></li>
+                
+              </ul>
+              <a href="#" class="register-btn">Register Now></a>
+              <i class="fa-solid fa-bars": onclick="toggebtn()"></i>
+        </nav>
+        <div class="container">
+            <h1>Find your Next Stay</h1>
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                        <label>Location</label>
+                        <input type="text" placeholder="where are you going">
+                    </div>
+                    <div>
+                        <label>Check in</label>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <label>Check out</label>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <label>Guest</label>
+                        <input type="text" placeholder="Add Guest">
+                    </div>
+                    <button type="submit"><img src="images/search.png" weigth="25" height="25"></button>
+                </form>
+            </div>
+
+        </div>
+     </div>
+     <div class="container">
+         <h2 class="sub-title">Exclusive</h2>
+         <div class="exclusive">
+            <div>
+                <img src="images/image-1.png">
+                <span><h3>Kerala</h3>
+                    <p>Starts @ 10000</p>
+                </span>
+                
+             </div>
+             <div>
+                <img src="images/image-2.png">
+                <span><h3>Coimbatore</h3>
+                    <p>Starts @ 5000</p>
+                </span>
+             </div>
+             <div>
+                <img src="images/image-3.png">
+                <span><h3>Rameshwaram</h3>
+                    <p>Starts @ 10000</p>
+                </span>
+             </div>
+             <div>
+                <img src="images/image-4.png">
+                <span><h3>Ooty</h3>
+                    <p>Starts @ 8000</p>
+                </span>
+             </div>
+             <div>
+                <img src="images/image-5.png">
+                <span><h3>Kanyakumari</h3>
+                    <p>Starts @ 12000</p>
+                </span>
+             </div>
+             
+           </div>
+         </div>
+         <h2 class="sub-title">Trending Places</h2>
+         <div class="trending">
+             <div>
+                <img src="images/chennai.png">
+                <h3>Chennai</h3>
+             </div>
+             <div>
+                <img src="images/madurai.png">
+                <h3>Madurai</h3>
+             </div>
+             <div>
+                <img src="images/Theni.png">
+                <h3>Theni</h3>
+             </div>
+             <div>
+                <img src="images/Trichy.png">
+                <h3>Trichy</h3>
+             </div>
+             <div>
+                <img src="images/mahabalipuram.png">
+                <h3>Mahabalipuram</h3>
+             </div>
+         </div>
+         <div class="cta">
+              <h3>Sharing <br>is Earning Now</h3>
+              <p>Great opportunityto make money by <br>sharing your extra  space.</p>
+              <a href="#" class="cta-btn">Know more</a>
+         </div>
+         <h2 class="sub-title">Travellers Stories</h2>
+         <div  class="stories">
+            <div>
+                <img src="images/story-1.png">
+                <p>Exploring the Enchanting Ooty.Nestled in the lap of the Nilgiri Hills, Ooty (or Udhagamandalam) is often referred to as the "Queen of Hill Stations."</p>
+            </div>
+            <div>
+                <img src="images/story-2.png">
+                <p>Embracing the Magic of Nilgiris.The Nilgiri Hills have long captivated travelers with their misty allure, rolling landscapes, and rich biodiversity.</p>
+            </div>
+            <div>
+                <img src="images/story-3.png">
+                <p>Theni is a hidden gem known for its rolling hills, cascading waterfalls, and sprawling plantations. </p>
+            </div>
+         </div>
+         <a href="#" class="start-btn">Start making money</a>
+         <div class="about-msg">
+            <h2>about Time to Travel</h2>
+            <p>Welcome to TimeToTravel, your ultimate companion for exploring the world one destination at a time!.At TimeToTravel, we believe that every journey has a story to tell. Whether you're chasing adventure, seeking serenity, or discovering hidden gems, our platform is designed to inspire and guide you.</p>
+         </div>
+         <div class="footer">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright @ 2024 ,Time To Travel</p>
+         </div>
+     </div>
+     <script>
+        var navBar= document.getElementById("navBar");
+         function toggebtn(){
+            navBar.classList.toggle(".hidemenu");
+         }
+     </script>
+    </body>
+</html>
